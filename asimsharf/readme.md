@@ -1,5 +1,6 @@
-# calculate Sum Of Square 
+# Calculate Sum Of Square 
 
+* Pseudo Code
 ```Pseudo Code
     sum = 0
     num = 0
@@ -15,6 +16,7 @@
        print sum
 ```
 
+* C Code
 ```c
 #include <stdio.h>
 int main()
@@ -40,6 +42,7 @@ int main()
 }
 ```
 
+* Flowchart
 ```flowchart
     1. start
     2. sum = 0
@@ -57,8 +60,8 @@ int main()
 ```
 
 
-# read Three Numbers
-
+# Read Three Numbers
+* Pseudo Code
 ```Pseudo Code
     read a
     read b
@@ -78,8 +81,8 @@ int main()
     end if
 ```
 
+* C Code
 ```c
-
 #include <stdio.h>
 int main()
 {
@@ -111,6 +114,7 @@ int main()
 }
 ```
 
+* Flowchart
 ```flowchart
     1. start
     2. read a
@@ -127,8 +131,8 @@ int main()
 ```
 
 
-# calculate Rinngin Sum
-
+# Calculate Rinngin Sum
+* Pseudo Code
 ```Pseudo Code
     read n
     sum = 0
@@ -140,6 +144,7 @@ int main()
     print sum
 ```
 
+* C Code
 ```c
 #include <stdio.h>
 int main()
@@ -156,6 +161,7 @@ int main()
 }
 ```
 
+* Flowchart
 ```flowchart
     1. start
     2. read n
@@ -169,8 +175,8 @@ int main()
     10. stop
 ```
 
-# calculate Factorial
-
+# Calculate Factorial
+* Pseudo Code
 ```Pseudo Code
     read n
     fact = 1
@@ -182,8 +188,8 @@ int main()
     print fact
 ```
 
+* C Code
 ```c
-
 #include <stdio.h>
 int main()
 {
@@ -199,6 +205,7 @@ int main()
 }
 ```
 
+* Flowchart
 ```flowchart
     1. start
     2. read n
@@ -212,8 +219,8 @@ int main()
     10. stop
 ```
 
-# calculate Fibonacci
-
+# Calculate Fibonacci
+* Pseudo Code
 ```Pseudo Code
     read n
     a = 0
@@ -228,6 +235,7 @@ int main()
     print c
 ```
 
+* C Code
 ```c
 #include <stdio.h>
 int main()
@@ -246,6 +254,7 @@ int main()
 }
 ```
 
+* Flowchart
 ```flowchart
     1. start
     2. read n
