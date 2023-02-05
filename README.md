@@ -261,3 +261,381 @@ int main () {
    return 0;
 }
 ```
+
+
+## Functions
+
+```c    
+#include <stdio.h>
+
+/* 函数声明 */
+int max(int num1, int num2);
+
+int main () {
+
+   /* 局部变量定义 */
+   int a = 100;
+   int b = 200;
+   int ret;
+
+   /* 调用函数来获取最大值 */
+   ret = max(a, b);
+
+   printf( "Max value is : %d\n", ret );
+
+   return 0;
+}
+
+/* 函数返回两个数中较大的那个数 */
+
+int max(int num1, int num2) {
+
+   /* 局部变量声明 */
+   int result;
+
+   if (num1 > num2)
+      result = num1;
+   else
+      result = num2;
+
+   return result;
+}
+```
+
+## Structures
+
+```c
+
+#include <stdio.h>
+
+struct Books {
+    char  title[50];
+    char  author[50];
+    char  subject[100];
+    int   book_id;
+};
+
+/* 函数声明 */
+
+void printBook( struct Books book );
+
+int main( ) {
+
+    struct Books Book1;        /* 声明 Book1，类型为 Book */
+    struct Books Book2;        /* 声明 Book2，类型为 Book */
+
+    /* Book1 详述 */
+    strcpy( Book1.title, "C 教程");
+    strcpy( Book1.author, "Runoob"); 
+    strcpy( Book1.subject, "编程语言");
+    Book1.book_id = 6495407;
+
+    /* Book2 详述 */
+    strcpy( Book2.title, "CSS 教程");
+    strcpy( Book2.author, "Runoob");
+    strcpy( Book2.subject, "前端技术");
+    Book2.book_id = 6495700;
+
+    /* 输出 Book1 信息 */
+    printBook( Book1 );
+
+    /* 输出 Book2 信息 */
+    printBook( Book2 );
+
+    return 0;
+}
+
+void printBook( struct Books book ) {
+
+    printf( "书标题 : %s\n", book.title);
+    printf( "书作者 : %s\n", book.author);
+    printf( "书类目 : %s\n", book.subject);
+    printf( "书 ID : %d\n", book.book_id);
+}
+```
+
+## Unions
+
+```c
+
+#include <stdio.h>
+
+#include <string.h>
+
+union Data {
+   int i;
+   float f;
+   char  str[20];
+};
+
+int main( ) {
+
+   union Data data;        
+
+   printf( "Memory size occupied by data : %d\n", sizeof(data));
+
+   return 0;
+}
+```
+
+## Enumerations
+
+```c
+
+#include <stdio.h>
+
+enum week {Mon, Tue, Wed, Thur, Fri, Sat, Sun};
+
+int main() {
+    enum week day;
+    day = Wed;
+    printf("%d", day+1);
+    return 0;
+}
+```
+
+## Typedef
+
+```c
+
+#include <stdio.h>
+
+typedef unsigned char BYTE;
+
+int main() {
+    BYTE b1, b2;
+    b1 = 'A';
+    b2 = 'B';
+    printf("%c %c", b1, b2);
+    return 0;
+}
+```
+
+## Preprocessor
+
+```c
+
+#include <stdio.h>
+
+#define TRUE 1
+
+#define FALSE 0
+
+#define PI 3.14159
+
+int main() {
+    int area;
+    area = PI * 5 * 5;
+    printf("%d", area);
+    return 0;
+}
+```
+
+## Input and Output
+
+```c
+
+#include <stdio.h>
+
+int main() {
+    char str[100];
+    printf("Enter a value :");
+    scanf("%s %d", str, &i);
+    printf("\nYou entered: %s %d ", str, i);
+    return 0;
+}
+```
+
+## File I/O
+
+```c
+
+#include <stdio.h>
+
+int main () {
+   FILE *fp;
+
+   fp = fopen("file.txt" , "w+");
+   fprintf(fp, "This is testing for fprintf...\n");
+   fputs("This is testing for fputs...\n", fp);
+   fclose(fp);
+   
+   return(0);
+}
+```
+
+## Memory Allocation
+
+```c
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+int main () {
+   int i,n;
+   int *ptr;
+   int sum=0;
+
+   printf("Enter number of elements: ");
+   scanf("%d",&n);
+
+   ptr = (int*) malloc(n * sizeof(int));  // memory allocated using malloc
+   if(ptr == NULL)                     
+   {
+       printf("Error! memory not allocated.");
+       exit(0);
+   }
+
+   printf("Enter elements of array: ");
+   for(i=0; i<n; ++i)
+   {
+       scanf("%d",ptr + i);
+       sum += *(ptr + i);
+   }
+
+   printf("Sum = %d",sum);
+   free(ptr);
+   return 0;
+}
+```
+
+## Command Line Arguments
+
+```c
+
+#include <stdio.h>
+
+int main( int argc, char *argv[] ) {
+
+   if( argc == 2 ) {
+      printf("The argument supplied is %s\n", argv[1]);
+   }
+   else if( argc > 2 ) {
+      printf("Too many arguments supplied.\n");
+   }
+   else {
+      printf("One argument expected.\n");
+   }
+}
+```
+
+## Pointers
+
+```c
+
+#include <stdio.h>
+
+int main () {
+
+   int  var = 20;   /* 实际变量的声明 */
+   int  *ip;        /* 指针变量的声明 */
+
+   ip = &var;  /* 在指针变量中存储 var 的地址 */
+
+   printf("Address of var variable: %x\n", &var  );
+
+   /* 在指针变量中存储的地址 */
+   printf("Address stored in ip variable: %x\n", ip );
+
+   /* 使用指针访问值 */
+   printf("Value of *ip variable: %d\n", *ip );
+
+   return 0;
+}
+```
+
+## Dynamic Memory Allocation
+
+```c
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+int main () {
+
+   int i,n;
+   int *ptr;
+   int sum=0;
+
+   printf("Enter number of elements: ");
+   scanf("%d",&n);
+
+   ptr = (int*) malloc(n * sizeof(int));  // memory allocated using malloc
+   if(ptr == NULL)                     
+   {
+       printf("Error! memory not allocated.");
+       exit(0);
+   }
+
+   printf("Enter elements of array: ");
+   for(i=0; i<n; ++i)
+   {
+       scanf("%d",ptr + i);
+       sum += *(ptr + i);
+   }
+
+   printf("Sum = %d",sum);
+   free(ptr);
+   return 0;
+}
+```
+
+## Structures
+
+```c
+
+#include <stdio.h>
+
+#include <string.h>
+
+struct Books {
+   char  title[50];
+   char  author[50];
+   char  subject[100];
+   int   book_id;
+};
+
+/* 函数声明 */
+
+void printBook( struct Books book );
+
+int main( ) {
+
+    struct Books Book1;        /* 声明 Book1，类型为 Books */
+    struct Books Book2;        /* 声明 Book2，类型为 Books */
+
+    /* Book1 详述 */
+    strcpy( Book1.title, "C 教程");
+    strcpy( Book1.author, "RUNOOB"); 
+    strcpy( Book1.subject, "编程语言");
+    Book1.book_id = 6495407;
+
+    /* Book2 详述 */
+    strcpy( Book2.title, "CSS 教程");
+    strcpy( Book2.author, "RUNOOB");
+    strcpy( Book2.subject, "前端技术");
+    Book2.book_id = 6495700;
+
+    /* 输出 Book1 信息 */
+    printBook( Book1 );
+
+    /* 输出 Book2 信息 */
+    printBook( Book2 );
+
+    return 0;
+}
+
+void printBook( struct Books book ) {
+
+   printf( "书标题 : %s\n", book.title);
+   printf( "书作者 : %s\n", book.author);
+   printf( "书类目 : %s\n", book.subject);
+   printf( "书 ID : %d\n", book.book_id);
+}
+```
+
+## Unions
+
+```c
