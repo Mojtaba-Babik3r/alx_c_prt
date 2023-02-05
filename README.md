@@ -6,61 +6,258 @@ This is a roadmap for learning programming with c. It is a work in progress and 
 
 ## Roadmap
 
-### 1. Introduction to Programming
+### 1. Introduction to Programming with c
 
-- [ ] [Introduction to Programming](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000)
-- [ ] [Introduction to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
-- [ ] [Programming Foundations with Python](https://www.udacity.com/course/programming-foundations-with-python--ud036)
-- [ ] [Programming Foundations with JavaScript, HTML and CSS](https://www.udacity.com/course/programming-foundations-with-javascript--ud804)
-- [ ] [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
-- [ ] [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
-- [ ] [How to Use Markdown](https://www.udacity.com/course/how-to-use-markdown--ud777)
-- [ ] [HTML and CSS Syntax](https://www.udacity.com/course/html-and-css-syntax--ud001)
-- [ ] [JavaScript Basics](https://www.udacity.com/course/javascript-basics--ud804)
-- [ ] [Intro to jQuery](https://www.udacity.com/course/intro-to-jquery--ud245)
-- [ ] [Intro to AJAX](https://www.udacity.com/course/intro-to-ajax--ud110)
-- [ ] [Object-Oriented JavaScript](https://www.udacity.com/course/object-oriented-javascript--ud015)
-- [ ] [JavaScript Design Patterns](https://www.udacity.com/course/javascript-design-patterns--ud989)
-- [ ] [JavaScript Testing](https://www.udacity.com/course/javascript-testing--ud549)
-- [ ] [JavaScript Promises](https://www.udacity.com/course/javascript-promises--ud898)
-- [ ] [JavaScript and the DOM](https://www.udacity.com/course/javascript-and-the-dom--ud117)
+# C Programming Language Basics
 
-### 2. Introduction to C
+## Introduction
 
-- [ ] [Introduction to C](https://www.udacity.com/course/intro-to-c--ud210)
-- [ ] [C for Java Programmers](https://www.udacity.com/course/c-for-java-programmers--ud283)
-- [ ] [C for Python Programmers](https://www.udacity.com/course/c-for-python-programmers--ud283)
-- [ ] [C for JavaScript Programmers](https://www.udacity.com/course/c-for-javascript-programmers--ud283)
-- [ ] [C for C++ Programmers](https://www.udacity.com/course/c-for-c-programmers--ud283)
-- [ ] [C for C# Programmers](https://www.udacity.com/course/c-for-c-programmers--ud283)
-- [ ] [C for PHP Programmers](https://www.udacity.com/course/c-for-php-programmers--ud283)
-- [ ] [C for Ruby Programmers](https://www.udacity.com/course/c-for-ruby-programmers--ud283)
-- [ ] [C for Swift Programmers](https://www.udacity.com/course/c-for-swift-programmers--ud283)
-- [ ] [C for Go Programmers](https://www.udacity.com/course/c-for-go-programmers--ud283)
-- [ ] [C for Rust Programmers](https://www.udacity.com/course/c-for-rust-programmers--ud283)
-- [ ] [C for Scala Programmers](https://www.udacity.com/course/c-for-scala-programmers--ud283)
-- [ ] [C for Haskell Programmers](https://www.udacity.com/course/c-for-haskell-programmers--ud283)
-- [ ] [C for Erlang Programmers](https://www.udacity.com/course/c-for-erlang-programmers--ud283)
-- [ ] [C for Prolog Programmers](https://www.udacity.com/course/c-for-prolog-programmers--ud283)
-- [ ] [C for Lisp Programmers](https://www.udacity.com/course/c-for-lisp-programmers--ud283)
-- [ ] [C for OCaml Programmers](https://www.udacity.com/course/c-for-ocaml-programmers--ud283)
-- [ ] [C for Racket Programmers](https://www.udacity.com/course/c-for-racket-programmers--ud283)
-- [ ] [C for Clojure Programmers](https://www.udacity.com/course/c-for-clojure-programmers--ud283)
-- [ ] [C for Lua Programmers](https://www.udacity.com/course/c-for-lua-programmers--ud283)
-- [ ] [C for Julia Programmers](https://www.udacity.com/course/c-for-julia-programmers--ud283)
-- [ ] [C for F# Programmers](https://www.udacity.com/course/c-for-f-programmers--ud283)
-- [ ] [C for Elixir Programmers](https://www.udacity.com/course/c-for-elixir-programmers--ud283)
-- [ ] [C for Elm Programmers](https://www.udacity.com/course/c-for-elm-programmers--ud283)
-- [ ] [C for Dart Programmers](https://www.udacity.com/course/c-for-dart-programmers--ud283)
-- [ ] [C for Julia Programmers](https://www.udacity.com/course/c-for-julia-programmers--ud283)
+This is a roadmap for learning programming with c. It is a work in progress and will be updated as I learn more.
 
-### 3. C Programming
+- Getting Started
+- Hello World
+- Variables
+- Data Types
+- Operators
+- Expressions
+- Statements
+- Comments
+- Functions
+- Arrays
+- Strings
+- Pointers
+- Structures
+- Unions
+- Enumerations
+- Input and Output
+- Preprocessor
+- Error Handling
+- Type Casting
+- Storage Classes
+- Bitwise Operators
+- File Handling
+- Recursion
+- Memory Management
+- Command Line Arguments
+- Data Structures
+- Sorting
+- Searching
+- Linked Lists
+- Stacks
+- Queues
+- Trees
+- Graphs
+- Dynamic Programming
+- Miscellaneous
+- Advanced
+- References
 
-- [ ] [C Programming](https://www.udacity.com/course/c-programming--ud210)
-- [ ] [C Programming: Pointers](https://www.udacity.com/course/c-programming-pointers--ud210)
-- [ ] [C Programming: Memory Management](https://www.udacity.com/course/c-programming-memory-management--ud210)
-- [ ] [C Programming: Advanced Data Structures](https://www.udacity.com/course/c-programming-advanced-data-structures--ud210)
-- [ ] [C Programming: Advanced Pointers](https://www.udacity.com/course/c-programming-advanced-pointers--ud210)
-- [ ] [C Programming: Advanced Memory Management](https://www.udacity.com/course/c-programming-advanced-memory-management--ud210)
-- [ ] [C Programming: Advanced Data Structures](https://www.udacity.com/course/c-programming-advanced-data-structures--ud210)
-- [ ] [C Programming: Advanced Pointers](https://www.udacity.com/course/c-programming-advanced-pointers--ud210)
+## Getting Started
+
+C is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers.
+
+C was initially developed as a system programming language to write operating system. The main features of C language include low-level access to memory, a simple set of keywords, and clean style, these features make C language suitable for system programmings like operating system or compiler development. C language is a combination of both high-level and low-level language features. The language provides all the features of a high-level language like variable declarations and easy readability but also provides many features of low-level language like direct memory access. The language is portable and is widely used to develop system applications that require faster execution.
+
+C programming is fast, structured, procedural language with a rich set of operators and data types. C programming is a middle-level language, as it comprises both high-level and low-level language features. The language was developed to write an operating system called UNIX. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers.
+
+C was initially developed as a system programming language to write an operating system. The main features of C language include low-level access to memory, a simple set of keywords, and clean style, these features make C language suitable for system programmings like operating system or compiler development. C language is a combination of both high-level and low-level language features. The language provides all the features of a high-level language like variable declarations and easy readability but also provides many features of low-level language like direct memory access. The language is portable and is widely used to develop system applications that require faster execution.
+
+C programming is fast, structured, procedural language with a rich set of operators and data types. C programming is a middle-level language, as it comprises both high-level and low-level language features. The language was developed to write an operating system called UNIX.
+
+## Hello World
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!");
+    return 0;
+}
+```
+
+## Variables
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    int c;
+    float f;
+
+    a = 10;
+    b = 20;
+
+    c = a + b;
+    printf("value of c : %d \n", c);
+
+    f = 70.0/3.0;
+    printf("value of f : %f \n", f);
+
+    return 0;
+}
+```
+
+## Data Types
+
+```c
+#include <stdio.h>
+
+void main() {
+    char grade = 'B';
+    int age = 25;
+    float salary = 2645.78;
+    printf("Grade = %c \n", grade);
+    printf("Age = %d \n", age);
+    printf("Salary = %f \n", salary);
+}
+
+```
+
+## Operators
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 21;
+    int b = 10;
+    int c;
+
+    c = a + b;
+    printf("Line 1 - c 的值是 %d\n", c );
+    c = a - b;
+    printf("Line 2 - c 的值是 %d\n", c );
+    c = a * b;
+    printf("Line 3 - c 的值是 %d\n", c );
+    c = a / b;
+    printf("Line 4 - c 的值是 %d\n", c );
+    c = a % b;
+    printf("Line 5 - c 的值是 %d\n", c );
+    c = a++;
+    printf("Line 6 - c 的值是 %d\n", c );
+    c = a--;
+    printf("Line 7 - c 的值是 %d\n", c );
+
+    return 0;
+}
+```
+
+## Expressions
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 21;
+    int b = 10;
+    int c;
+
+    if( a == b ) {
+        printf("Line 1 - a 等于 b\n" );
+    } else {
+        printf("Line 1 - a 不等于 b\n" );
+    }
+    if ( a < b ) {
+        printf("Line 2 - a 小于 b\n" );
+    } else {
+        printf("Line 2 - a 不小于 b\n" );
+    }
+    if ( a > b ) {
+        printf("Line 3 - a 大于 b\n" );
+    } else {
+        printf("Line 3 - a 不大于 b\n" );
+    }
+    /* 改变 a 和 b 的值 */
+    a = 5;
+    b = 20;
+    if ( a <= b ) {
+        printf("Line 4 - a 小于或等于 b\n" );
+    }
+    if ( b >= a ) {
+        printf("Line 5 - b 大于或等于 a\n" );
+    }
+
+    return 0;
+}
+```
+
+## Statements
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+
+    /* while loop execution */
+    while( a < 20 ) {
+        printf("value of a: %d\n", a);
+        a++;
+    }
+
+    return 0;
+}
+```
+
+## Comments
+
+```c
+
+#include <stdio.h>
+
+int main() {
+    /* 我的第一个 C 程序 */
+    printf("Hello, World! \n");
+
+    return 0;
+}
+```
+
+## Arrays
+
+```c
+#include <stdio.h>
+
+int main() {
+    int n[ 10 ]; /* n 是一个包含 10 个整数的数组 */
+    int i,j;
+
+    /* 初始化数组元素 */
+    for ( i = 0; i < 10; i++ ) {
+        n[ i ] = i + 100; /* 设置元素 i 为 i + 100 */
+    }
+
+    /* 输出数组中每个元素的值 */
+    for (j = 0; j < 10; j++ ) {
+        printf("Element[%d] = %d\n", j, n[j] );
+    }
+
+    return 0;
+}
+```
+
+## Pointers
+
+```c
+
+#include <stdio.h>
+
+int main () {
+
+   int  var = 20;   /* 实际变量的声明 */
+   int  *ip;        /* 指针变量的声明 */
+
+   ip = &var;  /* 在指针变量中存储 var 的地址 */
+
+   printf("Address of var variable: %x\n", &var  );
+
+   /* 在指针变量中存储的地址 */
+   printf("Address stored in ip variable: %x\n", ip );
+
+   /* 使用指针访问值 */
+   printf("Value of *ip variable: %d\n", *ip );
+
+   return 0;
+}
+```
