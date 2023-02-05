@@ -1,6 +1,12 @@
-# Calculate Sum Of Square 
+# Codersrank Summary Widget
 
-* Pseudo Code
+[![Codersrank Summary](https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=asimsharf&badges=5&show-avatar=true&style=--header-bg-color:%23000;--border-radius:5px)](https://profile.codersrank.io/user/asimsharf)  
+[![Codersrank Summary](https://cr-skills-chart-widget.azurewebsites.net/api/api?username=asimsharf)](https://profile.codersrank.io/user/asimsharf)
+
+# Calculate Sum Of Square
+
+- Pseudo Code
+
 ```Pseudo Code
     sum = 0
     num = 0
@@ -16,7 +22,8 @@
        print sum
 ```
 
-* C Code
+- C Code
+
 ```c
 #include <stdio.h>
 int main()
@@ -42,7 +49,8 @@ int main()
 }
 ```
 
-* Flowchart
+- Flowchart
+
 ```flowchart
     1. start
     2. sum = 0
@@ -59,9 +67,10 @@ int main()
     13. stop
 ```
 
-
 # Read Three Numbers
-* Pseudo Code
+
+- Pseudo Code
+
 ```Pseudo Code
     read a
     read b
@@ -81,7 +90,8 @@ int main()
     end if
 ```
 
-* C Code
+- C Code
+
 ```c
 #include <stdio.h>
 int main()
@@ -114,7 +124,8 @@ int main()
 }
 ```
 
-* Flowchart
+- Flowchart
+
 ```flowchart
     1. start
     2. read a
@@ -130,9 +141,10 @@ int main()
     12. stop
 ```
 
-
 # Calculate Rinngin Sum
-* Pseudo Code
+
+- Pseudo Code
+
 ```Pseudo Code
     read n
     sum = 0
@@ -144,7 +156,8 @@ int main()
     print sum
 ```
 
-* C Code
+- C Code
+
 ```c
 #include <stdio.h>
 int main()
@@ -161,7 +174,8 @@ int main()
 }
 ```
 
-* Flowchart
+- Flowchart
+
 ```flowchart
     1. start
     2. read n
@@ -176,7 +190,9 @@ int main()
 ```
 
 # Calculate Factorial
-* Pseudo Code
+
+- Pseudo Code
+
 ```Pseudo Code
     read n
     fact = 1
@@ -188,7 +204,8 @@ int main()
     print fact
 ```
 
-* C Code
+- C Code
+
 ```c
 #include <stdio.h>
 int main()
@@ -205,7 +222,8 @@ int main()
 }
 ```
 
-* Flowchart
+- Flowchart
+
 ```flowchart
     1. start
     2. read n
@@ -220,7 +238,9 @@ int main()
 ```
 
 # Calculate Fibonacci
-* Pseudo Code
+
+- Pseudo Code
+
 ```Pseudo Code
     read n
     a = 0
@@ -235,7 +255,8 @@ int main()
     print c
 ```
 
-* C Code
+- C Code
+
 ```c
 #include <stdio.h>
 int main()
@@ -254,7 +275,8 @@ int main()
 }
 ```
 
-* Flowchart
+- Flowchart
+
 ```flowchart
     1. start
     2. read n
