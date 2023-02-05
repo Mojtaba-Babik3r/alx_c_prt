@@ -4,6 +4,12 @@
 
 This is a roadmap for learning programming with c. It is a work in progress and will be updated as I learn more.
 
+   ------------------------------------------Attintion please !-------------------------------------------
+   | any one who complete any of the tasks below please update with your initial letters beside the task |
+   | asim sharf =      AS                                                                                |
+   | mohammed saeed =  MS                                                                                |
+   | mojtaba babiker = MB                                                                                |
+   -------------------------------------------------------------------------------------------------------
 ## Roadmap
 
 ### 1. Introduction to Programming with c
@@ -14,9 +20,9 @@ This is a roadmap for learning programming with c. It is a work in progress and 
 
 This is a roadmap for learning programming with c. It is a work in progress and will be updated as I learn more.
 
-- Getting Started
-- Hello World
-- Variables
+- Getting Started | MS
+- Hello World     | MS
+- Variables       | MS
 - Data Types
 - Operators
 - Expressions
