@@ -1,3 +1,20 @@
+# Codersrank Summary Widget
+
+[![Codersrank Summary](https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=asimsharf&badges=2&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px)](https://profile.codersrank.io/user/asimsharf)
+
+[![Codersrank Summary](https://cr-skills-chart-widget.azurewebsites.net/api/api?username=asimsharf)](https://profile.codersrank.io/user/asimsharf)
+
+# Codersrank SCORES & BADGES
+    
+[![Codersrank Score](https://cr-skills-chart-widget.azurewebsites.net/api/api?username=asimsharf&width=820)](https://profile.codersrank.io/user/asimsharf)
+
+[![Codersrank Badges](https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=badges&username=asimsharf&badges=3&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px)](https://profile.codersrank.io/user/asimsharf)
+
+# Codersrank Languages Widget
+
+[![Codersrank Languages](https://cr-skills-chart-widget.azurewebsites.net/api/api?username=asimsharf&width=820)](https://profile.codersrank.io/user/asimsharf)
+
+
 # Calculate Sum Of Square 
 
 * Pseudo Code
