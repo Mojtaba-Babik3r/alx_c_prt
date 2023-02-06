@@ -4,7 +4,8 @@
 
 int main()
 {
-	printf("%lf\n" , 4.5 * 5.0);
-	printf(" %d" , pow(2, 3) );
+	const double num = 5.0;
+	printf("%lf%lf\n" , 4.5 * num);
+	printf(" %f\n" , pow(2.0, 3.0) );
 	return 0;
 }
