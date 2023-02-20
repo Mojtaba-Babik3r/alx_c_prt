@@ -9,4 +9,5 @@
 * function.c      :  dealing with functions
 * function_if.c   :  a function that recieves two numbers and return the biggest
 * advanced_calc.c :  receive two numbers and an operator from user input and then do a calculation based on that operator and print the result
+* switch.c        :  switch test diffirent options for one variable and decide according to the value
 For full tutorial please visit this [Youtube link](https://www.youtube.com/watch?v=KJgsSFOSQv0&t=5981s "C Programming Tutorial for Beginners")
