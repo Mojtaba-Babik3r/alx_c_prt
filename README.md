@@ -6,9 +6,9 @@ This is a roadmap for learning programming with c. It is a work in progress and 
 
    ------------------------------------------Attintion please !-------------------------------------------
    | any one who complete any of the tasks below please update with your initial letters beside the task |
-   | asim sharf =      AS                                                                                |
-   | mohammed saeed =  MS                                                                                |
-   | mojtaba babiker = MB                                                                                |
+   | asimsharf =      AS                                                                                |
+   | MohammedSaeed92 =  MS                                                                                |
+   | mojtabababiker = MB                                                                                |
    -------------------------------------------------------------------------------------------------------
 ## Roadmap
 
@@ -20,19 +20,19 @@ This is a roadmap for learning programming with c. It is a work in progress and 
 
 This is a roadmap for learning programming with c. It is a work in progress and will be updated as I learn more.
 
-- Getting Started | MS
-- Hello World     | MS
-- Variables       | MS
-- Data Types
-- Operators
-- Expressions
-- Statements
-- Comments
-- Functions
-- Arrays
-- Strings
-- Pointers
-- Structures
+- Getting Started         | MS
+- Hello World             | MS
+- Variables               | MS
+- Data Types              | MS
+- Operators               | MS
+- Expressions             | MS
+- Statements              | MS
+- Comments                | MS
+- Functions               | MS
+- Arrays                  | MS
+- Strings                 | MS
+- Pointers                | MS
+- Structures              | MS
 - Unions
 - Enumerations
 - Input and Output
@@ -41,7 +41,7 @@ This is a roadmap for learning programming with c. It is a work in progress and 
 - Type Casting
 - Storage Classes
 - Bitwise Operators
-- File Handling
+- File Handling           | MS
 - Recursion
 - Memory Management
 - Command Line Arguments
