@@ -15,4 +15,8 @@
 * guessing_game.c : a simple game where the user should guess the number in 3 tries using while and if statement
 * for.c           : using for loop to print elements of an array
 * 2d_arrays.c     : printing 2D array elements with a nested loops
+* memory.c        : accessing memory addresses
+* files.c         : creating a new file "employees.txt" and write 3 lines in it
+* append.c        : writing a line at the end of the file "employees.txt"
+* read.c          : read the "employees.txt" file contents and print it to the terminal
 For full tutorial please visit this [Youtube link](https://www.youtube.com/watch?v=KJgsSFOSQv0&t=5981s "C Programming Tutorial for Beginners")
